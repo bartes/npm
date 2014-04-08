@@ -18,7 +18,7 @@ namespace :npm do
     end
   end
 
-  before 'deploy:updated', 'npm:install'
+  #before 'deploy:updated', 'npm:install'
 end
 
 namespace :load do
